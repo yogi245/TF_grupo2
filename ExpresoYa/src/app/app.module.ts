@@ -9,6 +9,7 @@ import { UsuarioRegistroComponent } from './usuario/usuario-registro/usuario-reg
 import { UsuarioListaComponent } from './usuario/usuario-lista/usuario-lista.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     PageNotFoundComponent,
     UsuarioRegistroComponent,
-    UsuarioListaComponent
+    UsuarioListaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
