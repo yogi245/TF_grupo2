@@ -1,0 +1,75 @@
+<div class="card bg-dark text-white w-75 mx-auto">
+  <div class="card-header">Registro</div>
+  <div class="card-body">
+    <form (ngSubmit)="grabar()" #clienteForm="ngForm">
+      <div class="form-group">
+        <label for="correo">Correo</label>
+        <input type="email" class="form-control" id="correo"
+              [(ngModel)]="usuario.correo"
+              name="correo" required #correo="ngModel">
+        <div class="alert alert-danger"
+              *ngIf="correo.invalid && (correo.dirty || correo.touched)">
+          <div *ngIf="correo.errors">
+            Ingrese su correo.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="contrasena">Contrasena</label>
+        <input type="password" class="form-control" id="contrasena"
+              [(ngModel)]="usuario.contrasena"
+              name="contrasena" required #contrasena="ngModel">
+        <div class="alert alert-danger"
+              *ngIf="contrasena.invalid && (contrasena.dirty || contrasena.touched)">
+          <div *ngIf="contrasena.errors">
+            Ingrese su contraseña.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre"
+              [(ngModel)]="usuario.nombre"
+              name="nombre" required #nombre="ngModel">
+        <div class="alert alert-danger"
+              *ngIf="nombre.invalid && (nombre.dirty || nombre.touched)">
+          <div *ngIf="nombre.errors">
+            Ingrese su nombre.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Apellido</label>
+        <input type="text" class="form-control" id="apellido"
+              [(ngModel)]="usuario.apellido"
+              name="apellido" required #apellido="ngModel">
+        <div class="alert alert-danger"
+              *ngIf="apellido.invalid && (apellido.dirty || apellido.touched)">
+          <div *ngIf="apellido.errors">
+            Ingrese su apellido.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+        <input type="text" class="form-control" id="fecha_nacimiento"
+              [(ngModel)]="usuario.fecha_nacimiento"
+              name="fecha_nacimiento" required #fecha_nacimiento="ngModel">
+        <div class="alert alert-danger"
+              *ngIf="fecha_nacimiento.invalid && (fecha_nacimiento.dirty || fecha_nacimiento.touched)">
+          <div *ngIf="fecha_nacimiento.errors">
+            Ingrese su fecha de nacimiento.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-success" [disabled]="!clienteForm.form.valid">Registrar</button>
+      </div>
+    </form>
+  </div>
+</div>>
