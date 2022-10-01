@@ -1,0 +1,315 @@
+2022-09-16 21:37:30,076 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 6076 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 21:37:30,078 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 21:37:30,079 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 21:37:30,117 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 21:37:30,117 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 21:37:30,707 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 21:37:30,773 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 59 ms. Found 8 JPA repository interfaces.
+2022-09-16 21:37:30,995 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9ad9e728] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 21:37:31,035 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 21:37:31,295 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 21:37:31,304 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 21:37:31,304 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 21:37:31,305 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 21:37:31,380 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 21:37:31,380 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1262 ms
+2022-09-16 21:37:31,524 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 21:37:31,582 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 21:37:31,732 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 21:37:31,836 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 21:37:31,989 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 21:37:32,008 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 21:37:32,460 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 21:37:32,466 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 21:37:32,814 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 21:37:33,270 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-16 21:37:33,281 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-16 21:37:33,295 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-16 21:37:33,304 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 3.599 seconds (JVM running for 4.185)
+2022-09-16 21:37:41,750 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-16 21:37:41,750 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-16 21:37:41,750 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2022-09-16 21:37:41,802 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-2] Obteniendo reserva
+2022-09-16 21:37:41,802 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-2] Buscar reserva ID 1
+2022-09-16 21:38:08,403 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-3] Obteniendo Lista de reservas
+2022-09-16 21:38:33,257 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-8] Obteniendo reserva
+2022-09-16 21:38:33,257 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-8] Buscar reserva ID 1
+2022-09-16 21:38:45,552 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] Obteniendo reserva
+2022-09-16 21:38:45,552 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] Buscar reserva ID 3
+2022-09-16 21:38:45,558 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] No se encontro la reserva
+2022-09-16 21:39:02,620 DEBUG com.upc.project_os_upc.rest.DestinoRest [http-nio-8080-exec-10] Obteniendo Lista de destinos
+2022-09-16 21:56:41,924 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 21:56:41,927 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-09-16 21:56:41,931 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-09-16 22:06:44,218 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 17564 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 22:06:44,220 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 22:06:44,220 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 22:06:44,250 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 22:06:44,251 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 22:06:44,767 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 22:06:44,828 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 8 JPA repository interfaces.
+2022-09-16 22:06:45,014 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$11a7330e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 22:06:45,048 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 22:06:45,276 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 22:06:45,284 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:06:45,284 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 22:06:45,285 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 22:06:45,356 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 22:06:45,357 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1105 ms
+2022-09-16 22:06:45,506 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 22:06:45,568 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 22:06:45,720 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 22:06:45,833 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 22:06:45,969 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 22:06:45,988 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 22:06:46,437 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 22:06:46,445 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:06:46,700 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioRest': Unsatisfied dependency expressed through field 'adapter'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.upc.project_os_upc.adapter.UsuarioAdapter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-09-16 22:06:46,701 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:06:46,709 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-09-16 22:06:46,710 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-09-16 22:06:46,713 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-09-16 22:06:46,721 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-16 22:06:46,737 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field adapter in com.upc.project_os_upc.rest.UsuarioRest required a bean of type 'com.upc.project_os_upc.adapter.UsuarioAdapter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.upc.project_os_upc.adapter.UsuarioAdapter' in your configuration.
+
+2022-09-16 22:07:28,943 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 12804 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 22:07:28,944 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 22:07:28,944 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 22:07:28,970 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 22:07:28,970 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 22:07:29,395 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 22:07:29,454 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 8 JPA repository interfaces.
+2022-09-16 22:07:29,621 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$341e57ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 22:07:29,640 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 22:07:29,825 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 22:07:29,832 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:07:29,832 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 22:07:29,833 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 22:07:29,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 22:07:29,897 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 927 ms
+2022-09-16 22:07:29,996 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 22:07:30,023 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 22:07:30,121 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 22:07:30,174 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 22:07:30,269 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 22:07:30,279 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 22:07:30,629 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 22:07:30,634 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:07:30,961 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 22:07:33,336 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-16 22:07:33,357 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:07:33,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-16 22:07:33,430 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 4.728 seconds (JVM running for 5.162)
+2022-09-16 22:07:54,180 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-16 22:07:54,180 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-16 22:07:54,181 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-16 22:07:54,205 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-1] Obteniendo usuario
+2022-09-16 22:07:54,207 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-1] Buscar usuario ID 1
+2022-09-16 22:08:03,905 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:08:03,908 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-09-16 22:08:03,911 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-09-16 22:08:26,243 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 16508 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 22:08:26,245 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 22:08:26,245 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 22:08:26,278 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 22:08:26,278 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 22:08:26,710 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 22:08:26,764 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 49 ms. Found 8 JPA repository interfaces.
+2022-09-16 22:08:26,932 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d4213c58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 22:08:26,954 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 22:08:27,142 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 22:08:27,148 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:08:27,149 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 22:08:27,149 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 22:08:27,205 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 22:08:27,205 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 926 ms
+2022-09-16 22:08:27,308 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 22:08:27,334 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 22:08:27,430 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 22:08:27,493 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 22:08:27,581 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 22:08:27,591 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 22:08:27,932 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 22:08:27,940 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:08:28,245 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 22:08:28,656 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-16 22:08:28,667 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:08:28,680 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-16 22:08:28,688 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 2.688 seconds (JVM running for 3.122)
+2022-09-16 22:08:33,928 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-16 22:08:33,929 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-16 22:08:33,929 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-16 22:08:33,946 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-1] Obteniendo usuario
+2022-09-16 22:08:33,947 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-1] Buscar usuario ID 1
+2022-09-16 22:08:47,690 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] Obteniendo usuario
+2022-09-16 22:08:47,691 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] Buscar usuario ID 2
+2022-09-16 22:08:47,694 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] No se encontro el usuario
+2022-09-16 22:09:01,084 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "z"]
+2022-09-16 22:10:12,969 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-6] Obteniendo usuario
+2022-09-16 22:10:12,970 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-6] Buscar usuario ID 1
+2022-09-16 22:10:15,453 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:10:15,455 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-09-16 22:10:15,458 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-09-16 22:44:02,845 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 12808 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 22:44:02,847 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 22:44:02,847 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 22:44:02,895 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 22:44:02,896 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 22:44:05,574 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 22:44:05,707 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 125 ms. Found 8 JPA repository interfaces.
+2022-09-16 22:44:06,552 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4333f25d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 22:44:07,247 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 22:44:07,617 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 22:44:07,629 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:44:07,630 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 22:44:07,630 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 22:44:07,725 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 22:44:07,725 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4829 ms
+2022-09-16 22:44:07,981 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 22:44:08,041 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 22:44:08,205 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 22:44:08,295 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 22:44:08,489 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 22:44:08,508 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 22:44:08,989 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 22:44:08,996 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:44:09,358 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 22:44:09,808 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-16 22:44:09,821 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:44:09,836 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-16 22:44:09,843 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 9.096 seconds (JVM running for 11.182)
+2022-09-16 22:44:14,202 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-16 22:44:14,202 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2022-09-16 22:44:14,203 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 1 ms
+2022-09-16 22:44:14,224 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-4] Obteniendo usuario
+2022-09-16 22:44:14,225 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-4] Buscar usuario ID 3
+2022-09-16 22:44:14,256 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-4] No se encontro el usuario
+2022-09-16 22:44:20,530 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] Obteniendo usuario
+2022-09-16 22:44:20,531 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] Buscar usuario ID 4
+2022-09-16 22:44:20,534 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] No se encontro el usuario
+2022-09-16 22:44:24,075 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "s"]
+2022-09-16 22:44:34,162 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-5] Obteniendo usuario
+2022-09-16 22:44:34,163 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-5] Buscar usuario ID 1
+2022-09-16 22:44:35,781 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:44:35,783 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-09-16 22:44:35,786 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-09-16 22:48:51,703 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 8284 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 22:48:51,704 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 22:48:51,704 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 22:48:51,729 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 22:48:51,730 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 22:48:52,152 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 22:48:52,207 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 8 JPA repository interfaces.
+2022-09-16 22:48:52,383 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ee6bf2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 22:48:52,403 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 22:48:52,591 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 22:48:52,598 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:48:52,598 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 22:48:52,599 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 22:48:52,659 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 22:48:52,659 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 929 ms
+2022-09-16 22:48:52,763 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 22:48:52,793 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 22:48:52,890 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 22:48:52,958 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 22:48:53,053 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 22:48:53,064 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 22:48:53,412 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 22:48:53,417 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:48:53,720 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 22:48:54,113 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-16 22:48:54,125 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-16 22:48:54,138 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-16 22:48:54,147 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 2.696 seconds (JVM running for 3.115)
+2022-09-16 22:50:15,830 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-16 22:50:15,830 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2022-09-16 22:50:15,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 0 ms
+2022-09-16 22:50:15,852 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] Obteniendo usuario
+2022-09-16 22:50:15,853 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-3] Buscar usuario ID 1
+2022-09-16 22:50:21,052 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "s"]
+2022-09-16 22:50:26,177 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-4] Obteniendo usuario
+2022-09-16 22:50:26,177 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-4] Buscar usuario ID 2
+2022-09-16 22:50:26,181 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-4] No se encontro el usuario
+2022-09-16 22:50:33,162 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "s"]
+2022-09-16 22:50:38,725 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-9] Obteniendo usuario
+2022-09-16 22:50:38,726 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-9] Buscar usuario ID 3
+2022-09-16 22:50:38,729 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-9] No se encontro el usuario
+2022-09-16 22:50:46,377 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-1] Obteniendo usuario
+2022-09-16 22:50:46,377 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8080-exec-1] Buscar usuario ID 1
+2022-09-16 22:52:03,625 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] Registrando reserva
+2022-09-16 22:52:03,713 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-5] SQL Error: 0, SQLState: 23503
+2022-09-16 22:52:03,713 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-5] ERROR: insert or update on table "reserva" violates foreign key constraint "reserva_id_usuario_fkey"
+  Detail: Key (id_usuario)=(3) is not present in table "usuario".
+2022-09-16 22:52:03,718 ERROR com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] could not execute statement; SQL [n/a]; constraint [reserva_id_usuario_fkey]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-09-16 22:52:19,006 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-7] Obteniendo Lista de reservas
+2022-09-16 22:53:10,363 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 22:53:10,366 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-09-16 22:53:10,369 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-09-16 23:09:13,857 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 17.0.4.1 on DESKTOP-NC65D41 with PID 5036 (D:\Developments\DevsUPC\project_os_upc\target\classes started by Torreblanca in D:\Developments\DevsUPC\project_os_upc)
+2022-09-16 23:09:13,859 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-16 23:09:13,859 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-16 23:09:13,890 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-16 23:09:13,890 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-16 23:09:14,747 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-16 23:09:14,807 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 8 JPA repository interfaces.
+2022-09-16 23:09:14,994 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55e415f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-16 23:09:15,036 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-09-16 23:09:15,269 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-16 23:09:15,277 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-16 23:09:15,277 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-16 23:09:15,278 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-16 23:09:15,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-16 23:09:15,368 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1478 ms
+2022-09-16 23:09:15,634 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-16 23:09:16,129 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-16 23:09:17,569 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-16 23:09:17,718 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-09-16 23:09:17,857 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-09-16 23:09:17,877 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-16 23:09:18,544 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-16 23:09:18,552 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 23:09:18,899 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 23:09:19,313 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-16 23:09:19,324 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-16 23:09:19,339 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-16 23:09:19,347 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 5.995 seconds (JVM running for 7.335)
+2022-09-16 23:09:23,387 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-16 23:09:23,388 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2022-09-16 23:09:23,388 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 0 ms
+2022-09-16 23:09:23,402 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-3] Obteniendo Lista de reservas
+2022-09-16 23:12:00,178 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] Obteniendo reserva
+2022-09-16 23:12:00,178 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-5] Buscar reserva ID 1
+2022-09-16 23:15:02,692 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-9] Obteniendo Lista de reservas
+2022-09-16 23:15:07,263 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-4] Eliminando reserva
+2022-09-16 23:15:07,271 ERROR com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-4] No class com.upc.project_os_upc.entity.Reserva entity with id 4 exists!
+2022-09-16 23:16:28,821 DEBUG com.upc.project_os_upc.rest.DestinoRest [http-nio-8080-exec-1] Obteniendo Lista de destinos
+2022-09-16 23:16:54,078 DEBUG com.upc.project_os_upc.rest.DestinoRest [http-nio-8080-exec-3] Obteniendo Lista de destinos
+2022-09-16 23:17:30,201 DEBUG com.upc.project_os_upc.rest.EstacionRest [http-nio-8080-exec-8] Obteniendo Lista de estaciones
+2022-09-16 23:18:21,100 DEBUG com.upc.project_os_upc.rest.HorarioRest [http-nio-8080-exec-2] Obteniendo Lista de horarios
+2022-09-16 23:18:52,966 DEBUG com.upc.project_os_upc.rest.TipoServicioRest [http-nio-8080-exec-5] Obteniendo Lista de tipo de servicios
+2022-09-16 23:19:52,110 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-6] Obteniendo Lista de reservas
+2022-09-16 23:20:29,278 DEBUG com.upc.project_os_upc.rest.ServicioRest [http-nio-8080-exec-7] Obteniendo Lista de servicios
+2022-09-16 23:21:12,090 DEBUG com.upc.project_os_upc.rest.ProgramacionRest [http-nio-8080-exec-9] Obteniendo Lista de programaciones
+2022-09-16 23:21:37,964 DEBUG com.upc.project_os_upc.rest.ProgramacionRest [http-nio-8080-exec-4] Obteniendo programacion
+2022-09-16 23:21:37,965 DEBUG com.upc.project_os_upc.rest.ProgramacionRest [http-nio-8080-exec-4] Buscar programacion ID 1
+2022-09-16 23:22:46,579 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-3] Obteniendo reserva
+2022-09-16 23:22:46,579 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8080-exec-3] Buscar reserva ID 1
+2022-09-16 23:24:50,628 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.upc.project_os_upc.entity.Usuario` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (1); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.upc.project_os_upc.entity.Usuario` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (1)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 16] (through reference chain: com.upc.project_os_upc.entity.Reserva["usuario"])]

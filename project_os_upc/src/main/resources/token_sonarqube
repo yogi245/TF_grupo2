@@ -1,0 +1,1 @@
+mvn clean verify sonar:sonar -Dsonar.projectKey=project_os_upc -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_8ed668ea31d43ac8da95278b54c09f1af0c47d39
