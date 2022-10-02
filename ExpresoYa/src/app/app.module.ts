@@ -10,6 +10,8 @@ import { UsuarioListaComponent } from './usuario/usuario-lista/usuario-lista.com
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { UsuarioReservaComponent } from './usuario-reserva/usuario-reserva.component';
+import { ReservaComponent } from './reserva/reserva.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LoginComponent } from './login/login.component';
     PageNotFoundComponent,
     UsuarioRegistroComponent,
     UsuarioListaComponent,
-    LoginComponent
+    LoginComponent,
+    UsuarioReservaComponent,
+    ReservaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,8 @@
 export class Reserva {
-  id_reserva : number;
-  id_usuario : number;
-  id_programacion : number;
-  fecha_hora : Date;
+  idReserva : number;
+  usuario : number;
+  idProgramacion : number;
+  estacion : string;
+  fechaHora : Date;
+  cuentaBancaria : string;
 }

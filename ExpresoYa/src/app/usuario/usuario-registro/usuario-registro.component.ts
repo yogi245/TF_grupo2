@@ -1,3 +1,4 @@
+import { DatePipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Usuario } from 'src/app/model/usuario';
@@ -11,7 +12,8 @@ import { UsuarioService } from 'src/app/service/usuario.service';
 export class UsuarioRegistroComponent implements OnInit {
   usuario : Usuario = new Usuario();
 
-  constructor(private usuarioService : UsuarioService, private router : Router) { }
+  constructor(private usuarioService : UsuarioService, private router : Router) {
+  }
 
   ngOnInit(): void {
   }
@@ -19,7 +21,7 @@ export class UsuarioRegistroComponent implements OnInit {
   grabar(){
     console.log(this.usuario);
     this.usuarioService.postUsuarioRegistro(this.usuario).subscribe(
-      data => this.router.navigate(['/list'])
+      data => this.router.navigate(['/usuario_lista'])
     );
     console.log("continuando...")
   }

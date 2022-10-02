@@ -1,0 +1,153 @@
+2022-10-01 01:02:01,978 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 01:02:01,993 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 01:05:52,283 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-01 01:05:52,291 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-01 01:05:52,294 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-01 12:20:05,000 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 18.0.2 on LAPTOP-QTBQ736G with PID 17424 (D:\UPC\Ciclo_VI_A-OSS_Proyectos\Angular\TF_grupo2\project_os_upc\target\classes started by joeli in D:\UPC\Ciclo_VI_A-OSS_Proyectos\Angular\TF_grupo2\project_os_upc)
+2022-10-01 12:20:05,002 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-01 12:20:05,005 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-01 12:20:05,136 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-01 12:20:05,138 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-01 12:20:09,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-01 12:20:09,911 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 229 ms. Found 8 JPA repository interfaces.
+2022-10-01 12:20:11,531 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ade004e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-01 12:20:11,727 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-01 12:20:14,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2022-10-01 12:20:14,216 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2022-10-01 12:20:14,217 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-01 12:20:14,217 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-01 12:20:14,358 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-01 12:20:14,359 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9220 ms
+2022-10-01 12:20:14,832 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-01 12:20:14,984 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-01 12:20:15,345 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-01 12:20:15,683 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-01 12:20:17,268 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-01 12:20:17,374 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-01 12:20:22,716 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-01 12:20:23,377 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-01 12:20:24,714 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtFilterRequest' configured for use
+2022-10-01 12:20:25,148 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-01 12:20:25,349 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fd84e99, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70acd475, org.springframework.security.web.context.SecurityContextPersistenceFilter@117e714, org.springframework.security.web.header.HeaderWriterFilter@68a0f735, org.springframework.security.web.authentication.logout.LogoutFilter@2e293545, com.upc.project_os_upc.security.filter.JwtFilterRequest@50f52fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@235d6f7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50995a61, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73d3e17, org.springframework.security.web.session.SessionManagementFilter@66a6aae9, org.springframework.security.web.access.ExceptionTranslationFilter@15efa502, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63ccd690]
+2022-10-01 12:20:27,681 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-01 12:20:27,709 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2022-10-01 12:20:27,764 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2022-10-01 12:20:27,802 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 25.657 seconds (JVM running for 32.861)
+2022-10-01 12:31:19,859 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-01 12:31:19,859 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-3] Initializing Servlet 'dispatcherServlet'
+2022-10-01 12:31:19,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-3] Completed initialization in 2 ms
+2022-10-01 12:31:20,244 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Verificando Login
+2022-10-01 12:31:20,568 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 12:31:26,367 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-4] Verificando Login
+2022-10-01 12:36:18,877 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Verificando Login
+2022-10-01 12:36:18,985 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Bad credentials
+2022-10-01 14:49:15,718 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-01 14:49:15,721 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-01 14:49:15,725 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-01 14:50:12,985 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectOsUpcApplication using Java 18.0.2 on LAPTOP-QTBQ736G with PID 13532 (D:\UPC\Ciclo_VI_A-OSS_Proyectos\Angular\TF_grupo2\project_os_upc\target\classes started by joeli in D:\UPC\Ciclo_VI_A-OSS_Proyectos\Angular\TF_grupo2\project_os_upc)
+2022-10-01 14:50:12,986 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-01 14:50:12,987 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-01 14:50:13,033 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-01 14:50:13,033 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-01 14:50:13,789 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-01 14:50:13,850 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 53 ms. Found 8 JPA repository interfaces.
+2022-10-01 14:50:14,113 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d187ed17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-01 14:50:14,139 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-01 14:50:14,397 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2022-10-01 14:50:14,405 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2022-10-01 14:50:14,406 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-01 14:50:14,407 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-01 14:50:14,477 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-01 14:50:14,478 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1444 ms
+2022-10-01 14:50:14,630 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-01 14:50:14,672 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-01 14:50:14,789 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-01 14:50:14,876 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-01 14:50:14,999 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-01 14:50:15,011 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-01 14:50:15,633 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-01 14:50:15,639 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-01 14:50:15,918 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtFilterRequest' configured for use
+2022-10-01 14:50:16,144 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-01 14:50:16,230 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4caddb85, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52559c35, org.springframework.security.web.context.SecurityContextPersistenceFilter@190bb17c, org.springframework.security.web.header.HeaderWriterFilter@7f5d18b7, org.springframework.security.web.authentication.logout.LogoutFilter@668c6c8d, com.upc.project_os_upc.security.filter.JwtFilterRequest@5fba69e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f273d8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c34b138, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29ce9cbc, org.springframework.security.web.session.SessionManagementFilter@45680b5a, org.springframework.security.web.access.ExceptionTranslationFilter@72510829, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f258886]
+2022-10-01 14:50:16,822 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-01 14:50:16,839 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2022-10-01 14:50:16,857 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2022-10-01 14:50:16,868 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectOsUpcApplication in 4.264 seconds (JVM running for 4.892)
+2022-10-01 15:24:51,884 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-01 15:24:51,884 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-01 15:24:51,886 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2022-10-01 15:26:12,051 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Verificando Login
+2022-10-01 15:26:12,376 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Bad credentials
+2022-10-01 15:55:05,013 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-9] Verificando Login
+2022-10-01 15:55:05,022 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-9] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 15:55:21,040 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Verificando Login
+2022-10-01 15:55:21,043 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 15:56:53,406 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Verificando Login
+2022-10-01 15:56:53,409 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:00:37,676 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Verificando Login
+2022-10-01 16:00:37,678 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:01:05,724 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Verificando Login
+2022-10-01 16:01:05,728 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:03:16,787 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-4] Verificando Login
+2022-10-01 16:03:16,792 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-4] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:03:30,845 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-2] Verificando Login
+2022-10-01 16:03:30,848 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-2] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:09:48,389 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Verificando Login
+2022-10-01 16:09:48,392 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:13:57,411 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 16:13:57,414 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:16:00,300 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-10] Verificando Login
+2022-10-01 16:16:00,302 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-10] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:16:12,616 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-9] Verificando Login
+2022-10-01 16:16:12,618 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-9] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:21:41,763 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Verificando Login
+2022-10-01 16:21:41,768 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:22:11,683 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Verificando Login
+2022-10-01 16:22:11,686 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:22:14,807 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Verificando Login
+2022-10-01 16:22:14,811 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:22:17,855 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Verificando Login
+2022-10-01 16:22:17,858 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:23:18,959 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-4] Verificando Login
+2022-10-01 16:23:18,961 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-4] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:33:42,847 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Verificando Login
+2022-10-01 16:33:42,849 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 16:36:54,003 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 16:36:54,118 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Bad credentials
+2022-10-01 16:37:01,981 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-10] Verificando Login
+2022-10-01 18:13:57,201 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Verificando Login
+2022-10-01 18:14:24,539 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8090-exec-8] Obteniendo reserva
+2022-10-01 18:55:24,723 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Verificando Login
+2022-10-01 18:55:24,832 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Bad credentials
+2022-10-01 18:57:01,034 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Verificando Login
+2022-10-01 18:57:01,136 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Bad credentials
+2022-10-01 18:57:16,119 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Verificando Login
+2022-10-01 18:57:16,215 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Bad credentials
+2022-10-01 18:58:47,588 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-2] Verificando Login
+2022-10-01 18:58:47,689 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-2] Bad credentials
+2022-10-01 19:20:02,982 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 19:27:57,772 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Verificando Login
+2022-10-01 19:37:37,017 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Verificando Login
+2022-10-01 19:46:04,032 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-4] Verificando Login
+2022-10-01 19:54:41,362 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-7] Verificando Login
+2022-10-01 19:55:38,599 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 19:56:32,953 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-10] Verificando Login
+2022-10-01 19:56:58,711 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-9] Verificando Login
+2022-10-01 20:09:44,852 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Verificando Login
+2022-10-01 20:14:53,198 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-2] Verificando Login
+2022-10-01 20:59:29,453 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-10] Verificando Login
+2022-10-01 21:03:18,639 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Verificando Login
+2022-10-01 21:06:43,922 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-5] Verificando Login
+2022-10-01 21:07:38,709 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-6] Verificando Login
+2022-10-01 21:09:25,345 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-2] Verificando Login
+2022-10-01 21:10:33,767 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 21:12:41,430 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8090-exec-1] Obteniendo reserva
+2022-10-01 21:12:52,955 DEBUG com.upc.project_os_upc.rest.ReservaRest [http-nio-8090-exec-3] Obteniendo reserva
+2022-10-01 21:14:11,822 DEBUG com.upc.project_os_upc.rest.UsuarioRest [http-nio-8090-exec-4] Obteniendo usuario reservas
+2022-10-01 21:30:49,521 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Verificando Login
+2022-10-01 21:30:49,530 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-8] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 21:30:58,377 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-10] Verificando Login
+2022-10-01 21:32:09,015 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Verificando Login
+2022-10-01 21:32:09,019 ERROR com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-1] Cannot invoke "com.upc.project_os_upc.entity.Usuario.getCorreo()" because "usuario" is null
+2022-10-01 21:32:15,182 DEBUG com.upc.project_os_upc.security.rest.AuthRest [http-nio-8090-exec-3] Verificando Login

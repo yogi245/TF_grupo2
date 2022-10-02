@@ -19,9 +19,13 @@ export class LoginComponent implements OnInit {
   iniciarSesion(){
     console.log(this.login);
     this.loginService.postLogin(this.login).subscribe(
-      data => this.router.navigate(['/home'])
+      data => {this.router.navigate(['/usuario_reserva']);
+              localStorage.setItem("token",JSON.stringify(data));
+              }
     );
+    const token = JSON.parse(localStorage.getItem("token") || "")
     console.log("Continuando...")
+    console.log(token.jwt)
   }
 
 }

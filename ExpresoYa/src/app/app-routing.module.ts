@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { UsuarioReservaComponent } from './usuario-reserva/usuario-reserva.component';
 import { UsuarioListaComponent } from './usuario/usuario-lista/usuario-lista.component';
 import { UsuarioRegistroComponent } from './usuario/usuario-registro/usuario-registro.component';
 
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path:"usuario_registro", component:UsuarioRegistroComponent},
   {path:"usuario_lista", component:UsuarioListaComponent},
   {path:"login", component:LoginComponent},
+  {path:"usuario_reserva", component:UsuarioReservaComponent},
   {path: '', redirectTo: '/home', pathMatch:'full'},
   {path:'**', component:PageNotFoundComponent}
 ];

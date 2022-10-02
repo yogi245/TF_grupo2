@@ -8,7 +8,7 @@ import { Usuario } from '../model/usuario';
   providedIn: 'root'
 })
 export class UsuarioService {
-  URL_SERVICES='http://localhost:8090';
+  URL_SERVICES='http://localhost:8091';
   private urlBase = this.URL_SERVICES + '/api';
   private httpHeaders = new HttpHeaders({'Content-type' : 'application/json'});
   constructor(private http: HttpClient) { }

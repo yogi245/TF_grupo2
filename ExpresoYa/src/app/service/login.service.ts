@@ -19,7 +19,7 @@ export class LoginService {
                     .pipe(
                       map(response => response as Login[]),
                       catchError(e => {
-                        alert(e.status + ":" + e.error.message)
+                        alert(e.status + ":" + e.error.message + " - ")
                         return throwError(() => {
                           const error: any = new Error(e.error.message);
                           error.timestamp = Date.now();
